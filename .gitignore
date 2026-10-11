@@ -1,0 +1,28 @@
+
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv312/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained model checkpoints
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Local training dataset
+data/*.txt
+
+# Secrets
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
